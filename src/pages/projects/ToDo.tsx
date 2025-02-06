@@ -1,8 +1,11 @@
+import { Panel } from "primereact/panel";
 
 const ToDo = () => {
   return (
-    <div>ToDo</div>
-  )
-}
+    <Panel header="To-Do List">
+      
+    </Panel>
+  );
+};
 
-export default ToDo
+export default ToDo;
